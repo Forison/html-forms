@@ -1,51 +1,83 @@
-body{
-    margin: 0;
-    padding: 0;
-    top:0;
-    
-
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  background-color: #eee;
 }
 
-.navbar{
-    width: 100%;
-    height: 60px;
-    background-color: red;
+.navbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar > div > button {
+  background-color: #0077c5;
+  color: white;
+  border: 0px;
+  margin-left: 10px;
+  height: 34px;
+  width: 102.56px;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
 }
 
-.header{
-    width: 100%;
-    height: 75px;
-    background-color: green;
-    
-}
-.main{
-    width: 380px;
-    height: 100%;
-    background-color: aqua;
-    margin: 0 auto;
+.navbar > .sign-in {
+  margin-right: 30px;
+  font-size: 0.9em;
 }
 
-.footer{
-    width: 100%;
-    height: 99px;
-    background-color: orange;
+.returning-user {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  text-align: right;
+}
+.returning-user > div {
+  color: #505050;
 }
 
-
-
-.products{
-    width: 100%;
-    height: 42px;
-    background-color: blue;
+.returning-user > a {
+  text-decoration: none;
+  color: #0077c5;
+  text-align: right;
 }
 
-.form-container{
-    width: 100%;
-    background: black;
-    height: 508px;
+.header {
+  width: 100%;
+  height: 75px;
+  background-color: green;
 }
-.captcha{
-    width: 100%;
-    height: 53px;
-    background-color: gray;
+.main {
+  width: 380px;
+  height: 100%;
+  background-color: aqua;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 100%;
+  height: 99px;
+  background-color: orange;
+}
+
+.products {
+  width: 100%;
+  height: 42px;
+  background-color: blue;
+}
+
+.form-container {
+  width: 100%;
+  background: black;
+  height: 508px;
+}
+.captcha {
+  width: 100%;
+  height: 53px;
+  background-color: gray;
 }
