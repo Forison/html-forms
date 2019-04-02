@@ -3,6 +3,8 @@ body {
   padding: 0;
   top: 0;
   background-color: #eee;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 .navbar {
@@ -29,8 +31,7 @@ body {
 }
 
 .returning-user {
-  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
@@ -70,14 +71,126 @@ body {
   height: 42px;
   background-color: blue;
 }
+.form-description{
+  height: 32px;
+  margin-top: 20px;
+  color: #4c4c4c;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+.form-title{
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-size: 24px;
+  font-weight: 400;
+  
 
+}
+
+.form-header{
+  text-align: center;
+  margin-top: 16px;
+}
+form label{
+  font-size: 14px;
+  font-weight: 400;
+  color: #404040;
+  line-height: 25px;
+  padding-bottom: 6px;
+
+
+}
+small{
+  padding: 5px 0px;
+  font-size: 10px;
+  color: #444;
+  font-weight: 400;
+}
+form input{
+  padding-left: 8px;
+  padding-right: 8px;
+  border:1px solid #c1c5c8;
+  border-radius: 3px;
+  line-height: 1.3em;
+  color: black;
+  width: 320px;
+  min-width: 160px;
+ height: 34px;
+ font-family: inherit;
+ box-sizing: border-box;
+ }
+.form-header span{
+  display: block;
+   text-align: center;
+}
+.before-captcha{
+  color:#757575;
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 400;
+  height: 63px;
+  width: 318px;
+  margin: 0 auto;
+  line-height: 1.5;
+
+
+}
+
+label ,input{
+  display: block;
+}
 .form-container {
   width: 100%;
-  background: black;
-  height: 508px;
+  border:1px solid #c7c7c7;
+  background: white;
+  height: 694px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  height: 390px;
 }
 .captcha {
   width: 100%;
-  height: 53px;
-  background-color: gray;
+  height: 42px;
+  background-color: #eceef1;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 1.5;
+text-align: center;
+margin-bottom: -12px;
+}
+.captcha > p {
+
+  margin-top: 10px;
+
+}
+fieldset{
+  border:0;
+  margin: 0 auto;
+}
+button{
+
+  color:rgb(255,255,255);
+  background-color: #0077c5;
+  border-radius:4px;
+  height: 44px;
+  text-transform: capitalize;
+  font-weight: 100;
+  min-width: 100px;
+  display: inline-block;
+  padding: 6px 12px;
+  /*vertical-align: middle;*/
+  text-align: center;
+  font-family: inherit;
+  width: 320px;
+  margin: 0 auto;
+  font-size: 1.115em;
 }
