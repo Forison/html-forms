@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Intuit Accounts - Sign Up</title>
+  </head>
+
+  <body>
+    <!--beg of body-->
+
+    <nav class="navbar">
+      <!--beg-->
+      <div class="returning-user">
+        <div>Already have an Intuit account?</div>
+        <a href="#">I forgot my User ID or Password</a>
+      </div>
+      <div class="sign-in">
+        <button>
+          <img src="./assets/icons/icon-whitelock.png" alt="access lock" />
+          Sign In
+        </button>
+      </div>
+    </nav>
+    <!--end-->
+
+    <!--begin header bar-->
+    <header class="header">
+      <img src="./assets/logos/intuit-logo.png" alt="Brand logo" />
+    </header>
+    <!--end header-->
+
+    <!--beg main-->
+    <main class="main">
+      <!-- beg form -->
+
+      <div class="products">
+        <div class="turbox-tax-svg"></div>
+        <div class="turbox-tax-icon"></div>
+        <div class="quick-book-svg"></div>
+        <div class="quick-book-icon"></div>
+        <div class="mint-svg"></div>
+        <div class="mint-icon"></div>
+      </div>
+
+      <div class="form-container">
+        <!--beg form container-->
+
+        <div class="form-header">
+          <span class="form-title">One Account. </span>
+          <span class="form-title">Everything Intuit.</span>
+          <div class="form-description">
+            <!--beg form desc-->
+            Create an account for all of Intuit's products
+            <span>including Mint. <a href="#">Learn more</a></span>
+          </div>
+          <!--end form desc-->
+        </div>
+
+        <form action="#" method="POST">
+          <!--beg form-->
+          <fieldset>
+            <label for="email">Email address </label>
+            <input type="email" name="email" id="email" required /><br />
+          </fieldset>
+
+          <fieldset>
+            <label for="phone">Phone(recommended) </label>
+            <input type="tel" name="phone" id="phone" required />
+            <small>Standard call, messaging or data rates may apply.</small
+            ><br />
+          </fieldset>
+
+          <fieldset>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required />
+            <small class="password-icon"></small>
+          </fieldset>
+          <button type="submit">
+            <img
+              src="./assets/icons/icon-whitelock.png"
+              alt="Create account button"
+            />
+            create account
+          </button>
+        </form>
+        <!--end form -->
+
+        <div class="before-captcha">
+          <span>By clicking Create Account, you agree to our</span>
+          <span
+            ><a href="#">Terms of Service</a> and have read and acknowledge
+            <br />our <a href="#">Privacy Statement</a>
+          </span>
+        </div>
+
+        <div class="captcha">
+          <p>
+            Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+            <a href="#">Terms of Use</a>.
+          </p>
+        </div>
+      </div>
+      <!--end form container-->
+    </main>
+    <!--end main-->
+
+    <footer class="footer">
+      
+      <div class="top-of-footer">
+        <span>Legal</span> <span>Privacy</span> <span>Security</span>
+      </div>
+
+      <div class="below-top-of-footer">
+        <span>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. <br> <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span></span>
+      </div>
+
+    </footer>
+  </body>
+  <!--end body-->
+</html>
