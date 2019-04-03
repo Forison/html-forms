@@ -49,6 +49,9 @@ a {
   color: #0077c5;
   text-align: right;
 }
+a:hover{
+  text-decoration: underline;
+}
 
 .header {
   width: 100%;
@@ -81,37 +84,31 @@ a {
 }
 
 .turbox-tax-svg {
-  background: url("../svg/tt-favicon@2x.svg");
-  background-repeat: no-repeat;
+  background: url("../svg/tt-favicon@2x.svg") no-repeat;
 }
 
 .quick-book-svg {
-  background: url("../svg/quickbooks-favicon@2x.svg");
-  background-repeat: no-repeat;
+  background: url("../svg/quickbooks-favicon@2x.svg") no-repeat;
 }
 
 .mint-svg {
-  background: url("../svg/mint-favicon.svg");
-  background-repeat: no-repeat;
+  background: url("../svg/mint-favicon.svg") no-repeat;
 }
 
 .turbox-tax-icon {
-  background: url("../svg/turbo-tax-text.svg");
-  background-repeat: no-repeat;
+  background: url("../svg/turbo-tax-text.svg") no-repeat;
   width: 74px;
   height: 22px;
 }
 
 .quick-book-icon {
-  background: url("../svg/quick-books-text.svg");
-  background-repeat: no-repeat;
+  background: url("../svg/quick-books-text.svg") no-repeat;
   width: 98px;
   height: 22px;
 }
 
 .mint-icon {
-  background: url("../svg/mint-text.svg");
-  background-repeat: no-repeat;
+  background: url("../svg/mint-text.svg") no-repeat;
   width: 37px;
   height: 20px;
 }
@@ -125,7 +122,8 @@ a {
 .footer {
   width: 100%;
   height: 99px;
-  background-color: orange;
+  padding: 20px 0px;
+  
 }
 
 .products {
@@ -223,6 +221,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  border-radius: 2px;
 }
 form {
   display: flex;
@@ -239,7 +238,7 @@ form {
   font-weight: 300;
   line-height: 1.5;
   text-align: center;
-  margin-bottom: -12px;
+  margin-bottom: -11px;
 }
 .captcha > p {
   margin-top: 10px;
@@ -258,10 +257,37 @@ button {
   min-width: 100px;
   display: inline-block;
   padding: 6px 12px;
-  /*vertical-align: middle;*/
   text-align: center;
   font-family: inherit;
   width: 320px;
   margin: 0 auto;
   font-size: 1.115em;
+}
+
+.top-of-footer{
+  height: 23px;
+  width: 100%;
+  text-align: center;
+  color: #505050;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.below-top-of-footer{
+   height: 23px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: #505050;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.top-of-footer > span {
+ margin: 0px 5px;
+
+}
+.top-of-footer > span:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
