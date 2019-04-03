@@ -27,7 +27,7 @@ $ cd html-forms
 
 ## Deployment
 
-The demo page can be found [HERE](https://raw.githack.com/forison/html-forms/dev/index.html)
+The demo page can be found [HERE](https://forison.github.io/html-forms/)
 
 ## Contributors
 
